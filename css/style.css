@@ -82,11 +82,11 @@ img {
   display: inline-block;
 }
 .introduction {
-      background-image:url("http://thinkful-ed.github.io/karma-clone/img/first-background.jpg");
-    background-position: center bottom;
+      background-image:url('../images/first-background-copy.jpg');
+    background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
+    height: 530px;
     overflow: auto;
 }
 .introduction h1 {
