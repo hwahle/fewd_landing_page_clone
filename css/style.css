@@ -119,6 +119,12 @@ img {
     display: block;
     margin:0 auto;
 }
+.big-button:hover {
+  background-color: #d9400e;
+  border-color:cf3d0e;
+  cursor: pointer;
+
+}
 
 
 /* HTML5 display definitions
