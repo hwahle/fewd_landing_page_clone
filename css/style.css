@@ -10,6 +10,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -webkit-font-smoothing: antialiased;
 }
 
 /**
@@ -27,6 +28,10 @@ div {
 .top-navigation {
 
     background-color: #fff;
+    font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
 
 
 }
@@ -40,6 +45,7 @@ div {
 }
 img {
   height: 70px;
+  margin-left: 8rem;
 }
 .top-navigation > .content > .links {
   float: right;
@@ -52,7 +58,7 @@ img {
 }
 .links li {
   margin-left: 1.563rem;
-  margin-top: 1.7rem;
+  margin-top: .6rem;
   display: inline-block;
 }
 /* HTML5 display definitions
