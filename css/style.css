@@ -21,16 +21,39 @@ body {
   margin: 0;
 }
 div {
-  
+
 }
 /* Navigation Section */
 .top-navigation {
+
     background-color: #fff;
+
+
 }
 .top-navigation > .content {
     width: 970px;
-    height: 70px;
+    height: 71px;
     margin: 0 auto;
+    
+    
+
+}
+img {
+  height: 70px;
+}
+.top-navigation > .content > .links {
+  float: right;
+    display: inline-block;
+
+}
+.content {
+  padding: 0px 15.008px;
+
+}
+.links li {
+  margin-left: 1.563rem;
+  margin-top: 1.7rem;
+  display: inline-block;
 }
 /* HTML5 display definitions
    ========================================================================== */
@@ -100,6 +123,7 @@ template {
 
 a {
   background-color: transparent;
+
 }
 
 /**
