@@ -26,6 +26,12 @@ html {
 body {
 
   margin: 0;
+  background-color: #fff;
+    font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
+-webkit-font-smoothing: antialiased;
 }
 div {
 
@@ -74,6 +80,8 @@ img {
   }
 .content {
   padding: 0px 15.008px;
+  width: 970px;
+    margin: 0 auto;
 
 }
 .links li {
@@ -93,10 +101,23 @@ img {
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
+.introduction h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
 .introduction h1, .introduction h3 {
     color: white;
     text-align: center;
     font-weight: 300;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    display: block;
+    margin:0 auto;
 }
 
 
