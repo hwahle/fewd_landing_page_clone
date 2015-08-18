@@ -125,6 +125,15 @@ img {
   cursor: pointer;
 
 }
+.cases {
+  background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+}
 
 
 /* HTML5 display definitions
